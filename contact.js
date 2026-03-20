@@ -5,7 +5,7 @@ function sendMail(event) {
     let email = document.getElementById("email").value;
 
     let subject = "Contact from " + name;
-    let body = "Name: " + name + "%0AEmail: " + email  + "%0A";
+    let body = "Name: " + name + "%0AEmail: " + email  + "%0A%0A";
 
     window.location.href = "mailto:subash170107@gmail.com?subject=" 
         + encodeURIComponent(subject) 
