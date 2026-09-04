@@ -450,10 +450,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     align-items: stretch;
-<<<<<<< HEAD
-=======
   margin-bottom: 100px;
->>>>>>> ba4cea6 (Initial)
 }
 
 .project-card {
@@ -462,11 +459,9 @@ body {
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-<<<<<<< HEAD
   margin-bottom: 100px;
-=======
->>>>>>> ba4cea6 (Initial)
   border: 2px solid var(--white);
+  margin-bottom: 10px;
 }
 
 .project-card:hover {
